@@ -1,9 +1,4 @@
-:root{
-    --color-main: #000000;
-    --color-brown:#000000;
-    --cor-white-header: #ffffff;
-}
-.footer{
+.rodapé{
     display: flex;
     text-align: center;
     justify-content: space-around;
@@ -14,7 +9,25 @@
     margin-top: 3rem;
     display: grid;
 }
-body{
-    background-color: #fff;
-    font-family: 'Opens Sans', sans-serif;
+.section h1{
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}
+.Informacoes-pessoais{
+    margin: 5px 5px 5px 5px;
+    font-size: 20px;
+    padding: 10px 10px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+}
+.Titulo{
+    margin: 5px 5px 5px 5px;
+    font-size: 30px;
+    padding: 10px 10px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+}
+.Foto-rafael{
+    text-align:left;
 }
