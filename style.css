@@ -1,0 +1,20 @@
+:root{
+    --color-main: #000000;
+    --color-brown:#000000;
+    --cor-white-header: #ffffff;
+}
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    gap: 5rem;
+    background-color:rgb(0, 0, 0);
+    color:white;
+    padding: 2rem;
+    margin-top: 3rem;
+    display: grid;
+}
+body{
+    background-color: #fff;
+    font-family: 'Opens Sans', sans-serif;
+}
