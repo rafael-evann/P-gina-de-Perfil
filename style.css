@@ -1,77 +1,78 @@
-.rodapé{
-    display:flex;
-    text-align: center;
-    justify-content: space-around;
-    gap: 5rem;
-    background-color:#26ade4;
-    color:white;
-    padding: 2rem;
-    margin-top: 3rem;
-    display: grid;
-    padding-top: 2%;
-}
-.parent-box{
-    display:flex;
-    padding:20px 20px 10px 20px;
-    background-color: #26ade4;
-    font-size: 20px;
-    font-family: 'Quicksand', sans-serif;
-    color:white;
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.menu{
-    width: 100%;
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: #F6F6F6;
 }
 
-.Nome-rafael{  
-    font size:20pt;
-    padding-top:3.5%;
-    text-align:left;
+.titulo-destaque {
+    color: #22D4FD;
 }
 
-.foto-rafael{
-    margin: 10px 10px 10px 10px;
-    width: 10%;
-    height: 10%; 
-}
-.section h1{
+.apresentacao {
+    margin: 10% 15%;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{ 
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__texto{ 
+    font-size:24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__de__minhas__redes {
+    font-family: 'Krona One', 'sans-serif';
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link {
+    /* background-color: #22D4FD; mudando o butão e tirando sua cor de fundo */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #22D4FD;
     text-align: center;
-    font-size: 2rem;
-    font-family: 'Quicksand', sans-serif;
-    color:white;
+    width: 280px;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    font-weight: 600;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
 
 }
 
-body{
-    background-color:#24c0eb;
-}
-
-.Informacoes-pessoais-negrito{
-    margin: 5px 5px 5px 5px;
-    font-size: 20px;
-    padding: 10px 10px;
-    font-family: 'Quicksand', sans-serif;
-    text-align: left;
-    color:white;
-    font-weight: 1000;
-    
-}
-
-.Informacoes-pessoais{
-    margin: 5px 5px 5px 5px;
-    font-size: 20px;
-    padding: 10px 10px;
-    font-family: 'Quicksand', sans-serif;
-    text-align: left;
-    color:white;
-}
-
-.Titulo{
-    margin: 5px 5px 5px 5px;
-    font-size: 30px;
-    padding: 10px 10px;
-    font-family: 'Quicksand', sans-serif;
-    text-align: left;
-    color:white;   
+.apresentacao__links__link:hover {
+    background-color: #272727;
 }
